@@ -1,0 +1,52 @@
+---
+title: "My new project in GitHub"
+author: "Roser Rotches-Ribalta"
+date: "Friday, 21 September 2018"
+output: word_document
+bibliography: reproduci.bib
+csl: agriculture-ecosystems-and-environment.csl
+---
+
+
+Introduction
+------------
+
+This is just to try the GitHub [@Guven_2012; @Dunn_2008]. However [@Drew2013], ...
+
+
+Methods
+-------
+
+```{r echo=FALSE}
+
+data <- c(1, 2, 3, 2, 2, 3, 1, 4, 4, 2, 3, 1)
+var <- c(11, 22, 23, 32, 22, 30, 8, 3, 24, 12, 23, 11)
+plot(data ~ var)
+
+```
+
+
+
+We collected data on `r nrow(data)` individuals, and got the value for each individual
+
+
+
+Results
+-------
+
+We found that...
+
+
+Discussion
+----------
+
+These results confirm that...
+
+
+Acknowledgements
+----------------
+
+
+## References
+
+
